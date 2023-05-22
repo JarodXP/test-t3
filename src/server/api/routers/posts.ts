@@ -3,7 +3,6 @@ import {
   privateProcedure,
   publicProcedure,
 } from "@/server/api/trpc";
-import { api } from "@/utils/api";
 import { clerkClient } from "@clerk/nextjs";
 import type { User } from "@clerk/nextjs/server";
 import { TRPCError } from "@trpc/server";
